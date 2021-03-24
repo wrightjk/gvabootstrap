@@ -55,13 +55,13 @@
 
 .client1 {
   background-color: transparent;
-  border-radius: 30.5px/28.5px;
-  height: 57px;
+  border-radius: 30px/29px;
+  height: 58px;
   left: 309px;
   object-fit: cover;
   position: absolute;
-  top: 541px;
-  width: 61px;
+  top: 431px;
+  width: 60px;
 }
 
 .client2 {
@@ -71,7 +71,7 @@
   left: 309px;
   object-fit: cover;
   position: absolute;
-  top: 650px;
+  top: 541px;
   width: 61px;
 }
 
@@ -82,7 +82,7 @@
   left: 309px;
   object-fit: cover;
   position: absolute;
-  top: 759px;
+  top: 650px;
   width: 61px;
 }
 
@@ -93,19 +93,198 @@
   left: 309px;
   object-fit: cover;
   position: absolute;
-  top: 868px;
+  top: 759px;
   width: 61px;
 }
 
 .client5 {
   background-color: transparent;
-  border-radius: 30px/29px;
-  height: 58px;
+  border-radius: 30.5px/28.5px;
+  height: 57px;
   left: 309px;
   object-fit: cover;
   position: absolute;
-  top: 431px;
+  top: 868px;
+  width: 61px;
+}
+
+.client6 {
+  background-color: transparent;
+  border-radius: 30px/29px;
+  height: 58px;
+  left: 1081px;
+  object-fit: cover;
+  position: absolute;
+  top: 429px;
   width: 60px;
+}
+
+.client7 {
+  background-color: transparent;
+  border-radius: 30.5px/28.5px;
+  height: 57px;
+  left: 1081px;
+  object-fit: cover;
+  position: absolute;
+  top: 539px;
+  width: 61px;
+}
+
+.client8 {
+  background-color: transparent;
+  border-radius: 30.5px/28.5px;
+  height: 57px;
+  left: 1081px;
+  object-fit: cover;
+  position: absolute;
+  top: 648px;
+  width: 61px;
+}
+
+.client9 {
+  background-color: transparent;
+  border-radius: 30.5px/28.5px;
+  height: 57px;
+  left: 1081px;
+  object-fit: cover;
+  position: absolute;
+  top: 757px;
+  width: 61px;
+}
+
+.client10 {
+  background-color: transparent;
+  border-radius: 30.5px/28.5px;
+  height: 57px;
+  left: 1081px;
+  object-fit: cover;
+  position: absolute;
+  top: 866px;
+  width: 61px;
+}
+
+/* Client name position */
+
+.firstClient {
+  background-color: transparent;
+  height: auto;
+  left: 403px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 431px;
+  width: 592px;
+}
+
+.secondClient {
+  background-color: transparent;
+  height: auto;
+  left: 400px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 541px;
+  width: 421px;
+}
+
+.thirdClient {
+  background-color: transparent;
+  height: auto;
+  left: 400px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 649px;
+  width: 592px;
+}
+
+
+.fourthClient {
+  background-color: transparent;
+  height: auto;
+  left: 400px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 758px;
+  width: 592px;
+}
+
+
+.fifthClient {
+  background-color: transparent;
+  height: auto;
+  left: 400px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 870px;
+  width: 592px;
+}
+
+.sixthClient {
+  background-color: transparent;
+  height: auto;
+  left: 1175px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 429px;
+  width: 592px;
+}
+
+.seventhClient {
+  background-color: transparent;
+  height: auto;
+  left: 1172px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 539px;
+  width: 421px;
+}
+
+.eighthClient {
+  background-color: transparent;
+  height: auto;
+  left: 1172px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 647px;
+  width: 592px;
+}
+
+.ninthClient {
+  background-color: transparent;
+  height: auto;
+  left: 1172px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 756px;
+  width: 592px;
+}
+
+.tenthClient {
+  background-color: transparent;
+  height: auto;
+  left: 1172px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 868px;
+  width: 592px;
 }
 
 /* icons */
@@ -196,8 +375,6 @@
   width: 48px;
 }
 
-
-
 .arial-regular-normal-black-22px {
   color: var(--black);
   font-family: 'Arial-Regular', Helvetica;
@@ -228,160 +405,7 @@
   width: 154px;
 }
 
-.home-page .ellipse-33-VMr6Om {
-  background-color: transparent;
-  border-radius: 30px/29px;
-  height: 58px;
-  left: 1081px;
-  object-fit: cover;
-  position: absolute;
-  top: 429px;
-  width: 60px;
-}
-
-.home-page .ellipse-39-VMr6Om {
-  background-color: transparent;
-  border-radius: 30.5px/28.5px;
-  height: 57px;
-  left: 1081px;
-  object-fit: cover;
-  position: absolute;
-  top: 539px;
-  width: 61px;
-}
-
-.home-page .ellipse-40-VMr6Om {
-  background-color: transparent;
-  border-radius: 30.5px/28.5px;
-  height: 57px;
-  left: 1081px;
-  object-fit: cover;
-  position: absolute;
-  top: 648px;
-  width: 61px;
-}
-
-.home-page .ellipse-41-VMr6Om {
-  background-color: transparent;
-  border-radius: 30.5px/28.5px;
-  height: 57px;
-  left: 1081px;
-  object-fit: cover;
-  position: absolute;
-  top: 757px;
-  width: 61px;
-}
-
-.home-page .ellipse-42-VMr6Om {
-  background-color: transparent;
-  border-radius: 30.5px/28.5px;
-  height: 57px;
-  left: 1081px;
-  object-fit: cover;
-  position: absolute;
-  top: 866px;
-  width: 61px;
-}
-.home-page .ellipse-43-C61RwL {
-  background-color: var(--galliano);
-  border-radius: 8.5px;
-  height: 17px;
-  left: 1813px;
-  position: absolute;
-  top: 68px;
-  width: 17px;
-}
-.home-page .ena-kohler-C61RwL {
-  background-color: transparent;
-  height: auto;
-  left: 400px;
-  letter-spacing: 0.00px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 541px;
-  width: 421px;
-}
-.home-page .ena-kohler-VMr6Om {
-  background-color: transparent;
-  height: auto;
-  left: 1172px;
-  letter-spacing: 0.00px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 539px;
-  width: 421px;
-}
-.home-page .gray-milford-C61RwL {
-  background-color: transparent;
-  height: auto;
-  left: 400px;
-  letter-spacing: 0.00px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 649px;
-  width: 592px;
-}
-.home-page .gray-milford-VMr6Om {
-  background-color: transparent;
-  height: auto;
-  left: 1172px;
-  letter-spacing: 0.00px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 647px;
-  width: 592px;
-}
-
-.home-page .isabella-garcia-C61RwL {
-  background-color: transparent;
-  height: auto;
-  left: 400px;
-  letter-spacing: 0.00px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 758px;
-  width: 592px;
-}
-.home-page .isabella-garcia-VMr6Om {
-  background-color: transparent;
-  height: auto;
-  left: 1172px;
-  letter-spacing: 0.00px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 756px;
-  width: 592px;
-}
-
-.home-page .mohammad-ayad-C61RwL {
-  background-color: transparent;
-  height: auto;
-  left: 400px;
-  letter-spacing: 0.00px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 870px;
-  width: 592px;
-}
-.home-page .mohammad-ayad-VMr6Om {
-  background-color: transparent;
-  height: auto;
-  left: 1172px;
-  letter-spacing: 0.00px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 868px;
-  width: 592px;
-}
-.home-page .past-clients-C61RwL {
+.past-clients {
   background-color: transparent;
   height: auto;
   left: 1591px;
@@ -484,56 +508,7 @@
   top: 855px;
   width: 706px;
 }
-.home-page .rectangle-67-C61RwL {
-  background-color: var(--green-pea-5);
-  border-radius: 38px;
-  height: 59px;
-  left: 1553px;
-  position: absolute;
-  top: 275px;
-  width: 204px;
-}
-.home-page .robert-edwards-C61RwL {
-  background-color: transparent;
-  height: auto;
-  left: 403px;
-  letter-spacing: 0.00px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 431px;
-  width: 592px;
-}
-.home-page .robert-edwards-VMr6Om {
-  background-color: transparent;
-  height: auto;
-  left: 1175px;
-  letter-spacing: 0.00px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 429px;
-  width: 592px;
-}
 
-.home-page .x2-C61RwL {
-  background-color: transparent;
-  height: auto;
-  left: 1819px;
-  letter-spacing: 0.00px;
-  line-height: 11px;
-  position: absolute;
-  text-align: left;
-  top: 68px;
-  width: 30px;
-}
-.opensans-bold-white-11px {
-  color: var(--white);
-  font-family: 'Open Sans', Helvetica;
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 700;
-}
 .opensans-bold-white-33px {
   color: var(--white);
   font-family: 'Open Sans', Helvetica;

@@ -104,6 +104,15 @@ h1 {
 	width: 204px;
 }
 
+.btn-quaternary {
+	background-color: var(--green-pea-5);
+	border-radius: 38px;
+	height: 59px;
+	left: 1553px;
+	position: absolute;
+	top: 275px;
+	width: 204px;
+}
 
 .btn-outline-primary {
 	font-family: 'Open Sans', sans-serif;
@@ -118,6 +127,36 @@ h1 {
 	font-size: 20px; 
 	color: #266141;
 	outline-color: #266141;
+}
+
+.yellowNotifAlert {
+	background-color: var(--galliano);
+	border-radius: 8.5px;
+	height: 17px;
+	left: 1813px;
+	position: absolute;
+	top: 68px;
+	width: 17px;
+}
+
+.numOfNotif {
+	background-color: transparent;
+	height: auto;
+	left: 1819px;
+	letter-spacing: 0.00px;
+	line-height: 11px;
+	position: absolute;
+	text-align: left;
+	top: 70px;
+	width: 30px;
+}
+
+.numText {
+	color: var(--white);
+	font-family: 'Open Sans', Helvetica;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 700;
 }
 
 .employee-border {

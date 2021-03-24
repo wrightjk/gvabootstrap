@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="This page serves as the dashboard for Green Valley Auctions">
+		<meta name="keywords" content="HTML,CSS,Bootstrap,JavaScript,Green Valley Auctions">
+	  	<meta name="author" content="Jessica Wright and Meghan Muldoon">
+		<meta name="viewport" content="width=screen.width, initial-scale=1.0">
+
+		<title>GVA Dashboard</title>
+
+		<!-- Bootstrap v4.4.1 -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+		<!-- Anima CSS -->
+		<link href="css/home-page.css" rel="stylesheet" type="text/css" media="screen">
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<!-- Trajan Pro 3 Bold and Regular -->
+		<link href="https://use.typekit.net/iud3mwr.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+	  	<div class="container-center-horizontal home-page screen">
+	  		<div class="row">
+	  			<div class="green-header"></div>
+	  			<div class="rect1">
+	  				<div class="icon-home"></div>
+	  			</div>
+	  			<img class="profPic" src="images/headshot1.png">
+	  			<div class="employeeName">Tracy Brown</div>
+	  			<div class="rect3">
+	  				<div class="icon-search"></div>
+	  			</div>
+	  			<div class="rect2">
+	  				<div class="icon-message"></div>
+	  			</div>
+	  			<div class="rect4">
+	  				<div class="icon-notif"></div>
+	  			</div>
+	  			<!-- Add if statement (maybe with p5.js?) so only shows when they have notifications?? -->
+	  			<div class="yellowNotifAlert"></div>
+	  			<div class="numOfNotif numText">2</div>
+	  		</div>
+	  		<div class="row">
+				<div class="clientBackground"></div>
+				<div class="title trajan3">CURRENT CLIENTS</div>
+				<!-- May need to fix this; have to click on area around the label -->
+				<div class="btn btn-tertiary border-1px" role="button"></div>
+				<div class="add-new opensans-green">Add New Client</div>
+				<div class="btn btn-quaternary border-1px"></div>
+				<div class="past-clients opensans-green">Past Clients</div>
+	  		</div>
+	  		<div class="row">
+	  			<!-- Ability to click on first client -->
+	  			<a href="web-1920-57.html" onclick="window.event.stopPropagation()">
+	  			<div class="rectangle-61-C61RwL"></div></a>
+	  			<img class="client1" src="images/headshot2.png">
+	  			<div class="firstClient opensans-normal-white-40px">Robert Edwards</div>
+	  			<!-- Client 2 -->
+				<div class="rectangle-62-C61RwL"></div>
+				<img class="client2" src="images/headshot3.png">
+				<div class="secondClient opensans-normal-white-40px">Ena Kohler</div>
+				<!-- Client 3 -->
+				<div class="rectangle-63-C61RwL"></div>
+				<img class="client3" src="images/headshot4.png">
+				<div class="thirdClient opensans-normal-white-40px">Gray Milford</div>
+				<!-- Client 4 -->
+				<div class="rectangle-64-C61RwL"></div>
+				<img class="client4" src="images/headshot5.png">
+				<div class="fourthClient opensans-normal-white-40px">Isabella Garcia</div>
+				<!-- Client 5 -->
+				<div class="rectangle-65-C61RwL"></div>
+				<img class="client5" src="images/headshot6.png">
+				<div class="fifthClient opensans-normal-white-40px">Mohammad Ayad</div>
+				<!-- Client 6 -->
+				<div class="rectangle-249-C61RwL"></div>
+				<img class="client6" src="images/headshot7.png">
+				<div class="sixthClient opensans-normal-white-40px">Julie Phillips</div>
+				<!-- Client 7 -->
+				<div class="rectangle-250-C61RwL"></div>
+				<img class="client7" src="images/headshot8.png">
+				<div class="seventhClient opensans-normal-white-40px">Lindsey Bradshaw</div>
+				<!-- Client 8 -->
+				<div class="rectangle-251-C61RwL"></div>
+				<img class="client8" src="images/headshot9.png">
+				<div class="eighthClient opensans-normal-white-40px">Deija Washington</div>
+				<!-- Client 9 -->
+				<div class="rectangle-252-C61RwL"></div>
+				<img class="client9" src="images/headshot10.png">
+				<div class="ninthClient opensans-normal-white-40px">Charles Wu</div>
+				<!-- Client 10 -->
+				<div class="rectangle-253-C61RwL"></div>
+				<img class="client10" src="images/headshot7.png">
+				<div class="tenthClient opensans-normal-white-40px">Nick Jones</div>
+	  		</div>
+	  	</div>
+	  </div>
+
+		<!-- jQuery and Bootstrap links - do not delete! -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+
+		<!-- load p5js -->
+		<script src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/p5.js"></script>
+		<script src="js/employeeCharts.js"></script>
+		<!-- end of do not delete -->
+	</body>
+</html>
