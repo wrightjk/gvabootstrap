@@ -21,13 +21,21 @@ h1 {
 	padding-top: 1em;
 }
 
-.container-center-vertical,
-      .container-center-horizontal {
-        display: flex;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-      }
+
+.opensans-green {
+	color: var(--green-pea);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.container-center-vertical, .container-center-horizontal {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	margin: 0;
+}
 
 .sizing {
   background-color: var(--white);
@@ -40,13 +48,13 @@ h1 {
 
 .right-side {
 	background-color: #266141;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .btn {
 	outline: none;
 	box-shadow: none;
-	margin-left: 50px;
-	margin-right: 50px;
 }
 
 .btn-prim {
@@ -86,6 +94,16 @@ h1 {
 	margin-bottom: 3em;
 }
 
+.btn-tertiary {
+	background-color: var(--green-pea-5);
+	border-radius: 38px;
+	height: 59px;
+	left: 1320px;
+	position: absolute;
+	top: 275px;
+	width: 204px;
+}
+
 
 .btn-outline-primary {
 	font-family: 'Open Sans', sans-serif;
@@ -107,12 +125,22 @@ h1 {
 	border-width: 1px;
 }
 
-.border-green-pea {
-  border: 1px solid var(--green-pea);
+.clientBackground {
+  background-color: var(--green-pea-5);
+  border-radius: 29px;
+  height: 640px;
+  left: 190px;
+  position: absolute;
+  top: 357px;
+  width: 1593px;
 }
-
 .green-header {
-	background-color: #266141;
+	background-color: var(--green-pea-4);
+	height: 179px;
+	left: -0px;
+	position: absolute;
+	top: -0px;
+	width: 1921px;
 }
 
 .center {
@@ -137,6 +165,14 @@ h1 {
 	text-align: center;
 	color: #266141;
 	margin-top: 70px;
+}
+
+.trajan3 {
+  color: var(--green-pea);
+  font-family: trajan-pro-3, serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .name {
