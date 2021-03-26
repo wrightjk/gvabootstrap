@@ -21,6 +21,21 @@ h1 {
 	padding-top: 1em;
 }
 
+.rowBtn {
+	justify-content: flex-start;
+	padding-left: 270px;
+}
+
+.lastBtn {
+	padding-left: 475px;
+}
+
+.progress {
+	margin: 50px;
+	width: 60em;
+	height: 5em;
+	margin-left: 180px;
+}
 
 .opensans-green {
 	color: var(--green-pea);
@@ -92,6 +107,18 @@ h1 {
 	background-color: #266141;
 	width: 200px;
 	margin-bottom: 3em;
+}
+
+.btn-incomplete, .btn-incomplete:active, .btn-incomplete:hover, .btn-incomplete:visited, .btn-incomplete:focus {
+	background-color: var(--green-pea-2);
+	box-shadow: none !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	width: 200px;
+	margin-bottom: 3em;
+	color: white;
+	margin-left: 5em;
 }
 
 .btn-tertiary {

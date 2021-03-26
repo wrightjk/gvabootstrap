@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="This page serves as the client page for Green Valley Auctions">
+		<meta name="keywords" content="HTML,CSS,Bootstrap,JavaScript,Green Valley Auctions">
+	  	<meta name="author" content="Jessica Wright and Meghan Muldoon">
+		<meta name="viewport" content="width=screen.width, initial-scale=1.0">
+
+		<title>Green Valley Auctions</title>
+
+		<!-- Bootstrap v4.4.1 -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+		<!-- Anima CSS -->
+		<link href="css/home-page.css" rel="stylesheet" type="text/css" media="screen">
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<!-- Trajan Pro 3 Bold and Regular -->
+		<link href="https://use.typekit.net/iud3mwr.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+	  	<div>
+	  		<div class="row">
+	  			<div class="green-header"></div>
+	  			<div class="rect1">
+	  				<div class="icon-home"></div>
+	  			</div>
+	  			<img class="profPic" src="images/headshot1.png">
+	  			<div class="employeeName">Tracy Brown</div>
+	  			<div class="rect3">
+	  				<div class="icon-search"></div>
+	  			</div>
+	  			<div class="rect2">
+	  				<div class="icon-message"></div>
+	  			</div>
+	  			<div class="rect4">
+	  				<div class="icon-notif"></div>
+	  			</div>
+	  			<!-- Add if statement (maybe with p5.js?) so only shows when they have notifications?? -->
+	  			<div class="yellowNotifAlert"></div>
+	  			<div class="numOfNotif numText">2</div>
+	  		</div>
+	  		<div>
+				<img class="clientProfile" src="images/clientProfilePic.png">
+				<div class="title trajan3">Robert Edwards</div>
+	  		</div>
+	  		<!-- This isn't working :) -->
+	  		<div class="progress">
+				<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+			<div class="rowBtn">
+				<!-- contact and service order buttons -->
+				<a href="" class="btn btn-secondary" role="button">Initial Contact</a>
+				<a href="" class="btn btn-incomplete" role="button">Service Order</a>
+			</div>
+			<div class="rowBtn">
+				<!-- schedule and service scheduled buttons -->
+				<a href="" class="btn btn-secondary" role="button">Schedule Look At</a>
+				<a href="" class="btn btn-incomplete" role="button">Service Scheduled</a>
+			</div>
+			<div class="rowBtn">
+				<!-- inventory and service completed buttons -->
+				<a href="" class="btn btn-secondary" role="button">Inventory Form</a>
+				<a href="" class="btn btn-incomplete" role="button">Service Completed</a>
+			</div>
+			<div class="rowBtn lastBtn">
+				<!-- closure button -->
+				<a href="" class="btn btn-incomplete" role="button">Closure</a>
+			</div>
+		</div>
+
+		<!-- jQuery and Bootstrap links - do not delete! -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+
+		<!-- load p5js -->
+		<script src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/p5.js"></script>
+		<script src="js/employeeCharts.js"></script>
+		<!-- end of do not delete -->
+	</body>
+</html>

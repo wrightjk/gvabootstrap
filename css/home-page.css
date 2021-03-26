@@ -393,6 +393,18 @@
   border: 1px solid var(--green-pea);
 }
 
+.clientProfile {
+  background-color: transparent;
+  border-radius: 55.5px/53.5px;
+  flex-shrink: 1;
+  height: 107px !important;
+  margin-left: 800px !important;
+  margin-top: 150px;
+  object-fit: cover;
+  position: relative;
+  width: 111px;
+}
+
 .add-new {
   background-color: transparent;
   height: auto;
@@ -529,6 +541,7 @@
   font-size: 23px;
   font-style: normal;
   font-weight: 400;
+
 }
 .opensans-normal-white-40px {
   color: var(--white);
